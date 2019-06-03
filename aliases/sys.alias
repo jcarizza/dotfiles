@@ -1,0 +1,19 @@
+alias reload='source ~/.bashrc'
+alias rm='rm -I'
+alias grep='grep --color'
+alias mkdir='mkdir -p'
+alias du='du -kh'
+alias df='df -kTh'
+alias h='history'
+alias ll="ls -l --group-directories-first"
+alias la='ls -Al'
+alias lx='ls -lXB'
+alias lk='ls -lSr'
+alias lt='ls -ltr'
+alias lm='ls -al |more'
+alias lc='ls -ltcr'
+alias lu='ls -ltur'
+alias lr='ls -lR'
+alias ls='ls -hF --color'
+
+
