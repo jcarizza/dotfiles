@@ -1,0 +1,33 @@
+alias vim="nvim"
+alias svim="sudo vim"
+alias cls="clear"
+alias lg="lazygit"
+alias statp="stat -c '%a %n'"
+alias gt="git"
+alias reload="source ~/.zshrc"
+
+
+# Android emulators
+alias em_tablet_24="cd /data/Android/Sdk/emulator/ && emulator @Tablet_24"
+alias em_nexus="cd /data/Android/Sdk/emulator/ && emulator @Nexus_S"
+alias em_gplus="cd /data/Android/Sdk/emulator/ && emulator @gplus"
+
+
+# General Docker
+alias dps="docker ps"
+alias dpsa="docker ps -a | head -10"
+
+## Project ID
+alias d-id-bash="docker exec -it id_web_1 bash"
+alias d-id-stop="cd-id && docker-compose stop"
+alias d-id-start="cd-id && docker-compose start"
+alias d-id-in="d-id-start && d-id-bash"
+
+# Fades
+alias pelican="fades -d pelican -d markdown -x pelican"
+
+# Services
+alias mysqlstop="sudo service mysql stop"
+
+# Miscelaneos
+alias weeknumber="date +%V"
