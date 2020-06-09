@@ -1,0 +1,4 @@
+alias cookiecutter='fades -d cookiecutter -x cookiecutter'
+alias pre-commit='fades -d pre-commit -x pre-commit'
+alias django-admin='fades -d Django -x django-admin'
+alias pelican="fades -d pelican -d markdown -x pelican"

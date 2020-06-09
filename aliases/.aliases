@@ -1,0 +1,14 @@
+alias vim="nvim"
+alias svim="sudo vim"
+alias reload="source ~/.zshrc"
+alias cls="clear"
+alias lg="lazygit"
+alias pipr="pip install -r requirements.txt"
+alias rgrep="grep -r"
+alias reload="source ~/.zshrc"
+alias statp="stat -c '%a %n'"
+alias weeknumber="date +%V"
+
+source ~/.docker_aliases
+source ~/.fades_aliases
+source ~/.tmux_aliases

@@ -1,0 +1,3 @@
+alias em_tablet_24="cd /data/Android/Sdk/emulator/ && emulator @Tablet_24"
+alias em_nexus="cd /data/Android/Sdk/emulator/ && emulator @Nexus_S"
+alias em_gplus="cd /data/Android/Sdk/emulator/ && emulator @gplus"

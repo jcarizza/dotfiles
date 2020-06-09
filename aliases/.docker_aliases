@@ -1,0 +1,29 @@
+# Docker aliases template ${project-name}
+# alias d-${shortname}-compose="docker-compose -f ${dockerfile}"
+# alias d-${shortname}-up="d-${shortname}-compose up"
+# alias d-${shortname}-down="d-${shortname}-compose down"
+# alias d-${shortname}-exec="d-${shortname}-compose exec"
+
+# notifications-api
+alias d-nt-compose="docker-compose -f docker-compose.override.yml"
+alias d-nt-up="d-nt-compose up"
+alias d-nt-down="d-nt-compose down"
+alias d-nt-run="d-nt-compose run --rm"
+
+
+# instaweb
+alias d-iw-compose="docker-compose -f docker-compose.dev.yml"
+alias d-iw-up="d-iw-compose up"
+alias d-iw-down="d-iw-compose down"
+alias d-iw-exec="d-iw-compose exec"
+
+
+
+# EFE
+alias d-efe-compose="docker-compose -f local.yml"
+alias d-efe-exec="docker-compose -f local.yml run --rm"
+
+# Tools
+alias d-mysql='docker run --rm --name prueba -e "MYSQL_ROOT_PASSWORD=juanjuan"  mysql:latest'
+
+alias d-stopall=docker ps --format "{{.Names}}" | xargs docker stop
